@@ -63,13 +63,18 @@ public class PlayerControler : MonoBehaviour {
 				//Debug.Log("Fin del nivel");
 				//SceneManager.LoadScene (1);
 				TextoFin.text = "Fin del nivel";
+
 			}
 
 		}
 
         if (other.gameObject.CompareTag("Final")){
-            cuboObjetivo = cuboObjetivo + 1;
-            if (cubos == 1)
+			cuboObjetivo = cuboObjetivo + 1;
+			other.gameObject.SetActive (false);
+			posicion = other.gameObject.transform.position;
+			particulas.position = posicion;
+			systemaParticulas = particulas.GetComponent<ParticleSystem> ();
+			if (cuboObjetivo == 1)
             {
                 SceneManager.LoadScene(1);
             }
