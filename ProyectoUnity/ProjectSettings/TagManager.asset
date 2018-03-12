@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Recolectable
+  - Final
   layers:
   - Default
   - TransparentFX
