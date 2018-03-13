@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Recolectable
   - Final
+  - Nivel2Btn
+  - Plataforma
+  - planos
   layers:
   - Default
   - TransparentFX

@@ -292,9 +292,13 @@
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
     <Compile Include="Assets\Scenes\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Contador.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Girador.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayerControler.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Reiniciar.cs" />
     <Compile Include="Assets\Scenes\Scripts\Rotador.cs" />
     <Compile Include="Assets\Scenes\Scripts\Salir.cs" />
+    <Compile Include="Assets\Scenes\Scripts\SiguienteNivel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
@@ -305,6 +309,7 @@
     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
     <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\UETools\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
